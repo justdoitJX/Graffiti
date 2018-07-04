@@ -1,0 +1,47 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# built native files
+#*.o
+#*.so
+
+# generated files
+bin/
+gen/
+
+# Ignore gradle files
+.gradle/
+build/
+product/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse
+proguard/
+.classpath
+.project
+.metadata/
+
+# Log files
+*.log
+
+# Temporary files
+*~
+*.swp
+
+# Mac OS X clutter
+*.DS_Store
+
+# Android studio auto generate
+.idea/
+*.iml
+*.iws
+*.ipr

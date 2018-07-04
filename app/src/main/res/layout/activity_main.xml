@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.justdoit.graffiti.GraffitiDisplayView
+        android:id="@+id/graffitiDisplayView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp750_400"/>
+
+    <com.justdoit.graffiti.GraffitiView
+        android:id="@+id/graffitiView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp750_600"
+        android:layout_marginTop="@dimen/dp750_10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp750_40"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp750_28"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="请选择图案:"/>
+
+        <ImageView
+            android:id="@+id/ivSelectIcon1"
+            android:layout_width="@dimen/dp750_80"
+            android:layout_height="@dimen/dp750_80"
+            android:layout_marginLeft="@dimen/dp750_100"
+            android:src="@mipmap/icon_1"/>
+
+        <ImageView
+            android:id="@+id/ivSelectIcon2"
+            android:layout_width="@dimen/dp750_80"
+            android:layout_height="@dimen/dp750_80"
+            android:layout_marginLeft="@dimen/dp750_100"
+            android:src="@mipmap/icon_2"/>
+
+        <TextView
+            android:id="@+id/btnSend"
+            android:layout_width="@dimen/dp750_100"
+            android:layout_height="@dimen/dp750_60"
+            android:background="@drawable/send_background"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp750_100"
+            android:text="发送"/>
+
+    </LinearLayout>
+
+</LinearLayout>

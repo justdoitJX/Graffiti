@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+# built application files
+*.apk
+*.ap_
+app/parsed-config.txt
+app/src/main/java/com/hyzb/dao
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Eclipse
+proguard/
+.classpath
+.project
+
+# Log files
+*.log
+
+# Temporary files
+*~
+*.swp
+
+# Android studio auto generate
+.idea/
+*.iws
+*.ipr
+
+# built native files
+#*.o
+#*.so
+
+# generated files
+product/
+# Mac OS X clutter
+*.DS_Store
+
+app/libs/
+build/kotlin/

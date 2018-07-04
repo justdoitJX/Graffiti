@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fpliu:Android-CustomDimen-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-CustomDimen-1.0.0.aar/ef36259e11da0004f88bfa6ab0343ea7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-CustomDimen-1.0.0.aar/ef36259e11da0004f88bfa6ab0343ea7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fpliu/Android-CustomDimen/1.0.0/5856d19478d7c98c641c1a8cd20ccedf5cf2ed03/Android-CustomDimen-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

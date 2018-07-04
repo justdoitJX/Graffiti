@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fytGraffiti"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp750_10"
+        android:paddingBottom="@dimen/dp750_10"
+        android:background="#99000000"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp750_20"
+            android:text="清除"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp750_28" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/dp750_20"
+            android:drawableTop="@mipmap/graffit_icon"
+            android:text="请选择下面图案在中间区域绘制,可用多种图案绘制"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/sp750_24" />
+
+        <com.justdoit.graffiti.GraffitiDrawView
+            android:id="@+id/graffitiDrawView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp750_70"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/dp750_20"
+        android:background="#99000000"
+        android:gravity="center"
+        android:text="至少需要10个涂鸦才能发送哟~"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/sp750_26" />
+
+</LinearLayout>
